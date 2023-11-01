@@ -1,0 +1,89 @@
+.container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.textarea {
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 400px;
+  height: 100px;
+  resize: none;
+  font-size: 16px;
+  background-color: rgba(192, 191, 255, 0.2);
+  border: 1px solid rgb(192, 191, 255);
+  border-radius: 10px;
+}
+
+.textarea:focus {
+  border: 1px solid rgb(164, 163, 255);
+  outline: none;
+}
+
+.delete {
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  color: rgb(226, 43, 186);
+  background-color: rgba(255, 191, 200, 0.2);
+  border: 1px solid rgb(192, 191, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete:hover {
+  background-color: rgba(255, 124, 189, 0.3);
+}
+
+.download {
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  color: blueviolet;
+  background-color: rgba(192, 191, 255, 0.2);
+  border: 1px solid rgb(192, 191, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.download:hover {
+  background-color: rgba(139, 137, 255, 0.2);
+}
+
+.image {
+  width: 30%;
+}
+
+.create {
+  margin-top: 5px;
+  padding: 5px;
+  width: 400px;
+  font-size: 16px;
+  color: blueviolet;
+  background-color: rgba(192, 191, 255, 0.2);
+  border: 1px solid rgb(192, 191, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.create:hover {
+  background-color: rgba(139, 137, 255, 0.2);
+}

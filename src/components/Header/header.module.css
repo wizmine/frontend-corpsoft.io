@@ -1,0 +1,60 @@
+.container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  color: blueviolet;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  color: black;
+  transition: 0.2s;
+}
+
+.login {
+  padding: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: rgb(226, 43, 113);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.link:hover {
+  border: 1px solid rgba(228, 228, 228, 0.1);
+  background-color: rgba(137, 43, 226, 0.5);
+  color: white;
+}
+
+.login:hover {
+  background-color: rgb(99, 0, 192);
+}
+
+.logout:hover {
+  background-color: rgb(192, 0, 0);
+}

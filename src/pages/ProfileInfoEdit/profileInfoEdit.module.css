@@ -1,0 +1,102 @@
+.container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(233, 209, 255, 0.3);
+  border: 1px solid rgba(137, 43, 226, 0.3);
+  border-radius: 15px;
+}
+
+.header {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 28px;
+}
+
+.delete {
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  color: rgb(226, 43, 186);
+  background-color: rgba(255, 191, 200, 0.2);
+  border: 1px solid rgb(192, 191, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete:hover {
+  background-color: rgba(255, 124, 189, 0.3);
+}
+
+.download {
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  color: blueviolet;
+  background-color: rgba(192, 191, 255, 0.2);
+  border: 1px solid rgb(192, 191, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.download:hover {
+  background-color: rgba(139, 137, 255, 0.2);
+}
+
+.input {
+  padding-left: 5px;
+  border: 1px solid rgba(137, 43, 226, 0.3);
+  border-radius: 5px;
+}
+
+.input:focus {
+  border: 1px solid rgb(164, 163, 255);
+  outline: none;
+}
+
+.main {
+  width: 100%;
+}
+
+.info {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.key {
+  color: gray;
+}
+
+.save {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: rgba(132, 0, 255, 0.3);
+  color: white;
+  border: 1px solid rgba(137, 43, 226, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+}
